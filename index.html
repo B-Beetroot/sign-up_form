@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sign-up Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <div id="odin"><img src="./images/odin-lined.png"  alt="The Odin Project">ODIN</div>
+            <div id="footer">Photo by <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">
+                Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">
+                    Unsplash</a></div>
+        </div>
+        <div class="right-side">
+            <div id="cta-section"><p>This is not a real online service! 
+                You know you need something like this in your life to help you realize your 
+                deepest dreams. Sign up <i>now</i> to get started.</p>
+                <p>You <em>know</em> you want to.</p></div>
+        <div id="form-section">
+            <form id="signup-form" action="./index.html" method="post">
+                <div id="form-header">
+                <span class="form-title">Let's do this!</span>
+                </div>
+            <div id="input-row">     
+                <div id="left-input">
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Thor" tabindex="1">
+
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" tabindex="3">  
+
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" name="password" tabindex="5" required>
+                </div>
+
+                <div id="right-input">
+                <label for="last-name">LAST NAME</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Odinson" tabindex="2">
+
+                <label for="phone-number">PHONE NUMBER</label>
+                <input type="tel" id="phone-number" name="phone-number" tabindex="4"> 
+
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <input type="password" id="confirm-password" name="confirm-password" tabindex="6" required>
+                </div>
+            </div>
+            </form>
+        </div>
+        <div id="account-section">
+        <button id="submit-btn" type="button" tabindex="7">Create Account</button>
+        <p>Already have an account? <a href="#" tabindex="8">Log in</a></p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
+
